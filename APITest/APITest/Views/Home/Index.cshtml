@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@addTagHelper *,Microfost.AspNetCore.Mvc.TagHelpers
+@addTagHelper *,AuthoringTagHelpers
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<div>
+    <a style="color:white" class="btn btn-primary" asp-controller="Person" asp-action="Index">Person</a>
+    <a style="color:white" class="btn btn-primary" asp-controller="Department" asp-action="Index">Department</a>
+    <a style="color:white" class="btn btn-primary" asp-controller="Salary" asp-action="Index">Salary</a>
+</div>
